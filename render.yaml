@@ -2,11 +2,8 @@
 #   - name: postgres
 #     ipAllowList: []
 databases:
-  - name: random
-    databaseName: random9999
-    user: test_case
+  - name: postgres
     ipAllowList: []
-    plan: free
 
 services:
   - type: web
