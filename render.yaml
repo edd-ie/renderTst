@@ -5,6 +5,7 @@ databases:
   - name: random
     databaseName: random9999
     user: test_case
+    ipAllowList: []
 
 services:
   - type: web
